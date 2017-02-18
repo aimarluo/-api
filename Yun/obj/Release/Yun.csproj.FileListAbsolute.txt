@@ -5,9 +5,3 @@ E:\web\SummerBreezeNetApi\Yun\bin\Release\Jayrock.Json.dll
 E:\web\SummerBreezeNetApi\Yun\obj\Release\Yun.dll
 E:\web\SummerBreezeNetApi\Yun\obj\Release\Yun.pdb
 E:\web\SummerBreezeNetApi\Yun\obj\Release\Yun.csprojResolveAssemblyReference.cache
-E:\web\OodsoApi\Yun\bin\Release\Yun.dll
-E:\web\OodsoApi\Yun\bin\Release\Yun.pdb
-E:\web\OodsoApi\Yun\bin\Release\ICSharpCode.SharpZipLib.dll
-E:\web\OodsoApi\Yun\bin\Release\Jayrock.Json.dll
-E:\web\OodsoApi\Yun\obj\Release\Yun.dll
-E:\web\OodsoApi\Yun\obj\Release\Yun.pdb
