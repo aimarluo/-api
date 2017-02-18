@@ -285,7 +285,5 @@ $RECYCLE.BIN/
 # custom
 # ================================
 
-*.dll
-*.pdb
-*.txt
+bin/
 App.config
