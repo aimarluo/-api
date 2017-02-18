@@ -284,6 +284,6 @@ $RECYCLE.BIN/
 
 # custom
 # ================================
-
+obj/
 bin/
 App.config
