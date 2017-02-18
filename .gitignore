@@ -287,5 +287,5 @@ $RECYCLE.BIN/
 
 /libs/*.dll
 App.config
-*/bin/*.*
-*/obj/*.*
+*/bin/*/*.*
+*/obj/*/*.*
