@@ -280,3 +280,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# custom
+# ================================
+
+/libs/*.dll
+App.config
