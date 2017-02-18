@@ -1,8 +1,0 @@
-E:\web\SummerBreezeNetApi\Yun.User\bin\Release\Yun.User.dll
-E:\web\SummerBreezeNetApi\Yun.User\bin\Release\Yun.User.pdb
-E:\web\SummerBreezeNetApi\Yun.User\bin\Release\Yun.dll
-E:\web\SummerBreezeNetApi\Yun.User\bin\Release\ICSharpCode.SharpZipLib.dll
-E:\web\SummerBreezeNetApi\Yun.User\bin\Release\Jayrock.Json.dll
-E:\web\SummerBreezeNetApi\Yun.User\bin\Release\Yun.pdb
-E:\web\SummerBreezeNetApi\Yun.User\obj\Release\Yun.User.dll
-E:\web\SummerBreezeNetApi\Yun.User\obj\Release\Yun.User.pdb
