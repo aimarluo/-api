@@ -15,22 +15,8 @@ namespace Yun.UnitTest
         private static readonly string _serverKey = ConfigurationManager.AppSettings["ServerKey"];
         private static readonly string _serverSecret = ConfigurationManager.AppSettings["ServerSecret"];
 
-        private static readonly string _adminUser = ConfigurationManager.AppSettings["AdminUser"];
-        private static readonly string _adminSecret = ConfigurationManager.AppSettings["AdminSecret"];
-
-        public static string Format = "xml";
-
-        public static string GetAdminToken()
-        {
-            return Instance.Execute(new LoginRequest
-            {
-                AppSecret = _serverSecret,
-                Ip = "192.168.1.1",
-                UserName = _adminUser,
-                Password = _adminSecret
-            }).Token;
-        }
-
+        
+        public static string Format = "xml"; 
 
         public static string AppSecret
         {
