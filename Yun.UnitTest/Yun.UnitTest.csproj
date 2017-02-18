@@ -59,11 +59,16 @@
   <ItemGroup>
     <Compile Include="AYunClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CommonTest.cs" />
     <Compile Include="YunClient.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Oodso.Common.Api\Oodso.Common.Api.csproj">
+      <Project>{E39E85AD-506D-47AD-B51B-324DD58EC9E5}</Project>
+      <Name>Oodso.Common.Api</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Yun.User\Yun.User.csproj">
       <Project>{E4AC4FEB-E06E-42D4-B11D-5986FC9B2BDB}</Project>
       <Name>Yun.User</Name>
