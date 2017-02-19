@@ -286,5 +286,6 @@ $RECYCLE.BIN/
 # ================================
 obj/
 bin/
+debug/
 App.config
 .vs
