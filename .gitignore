@@ -287,3 +287,4 @@ $RECYCLE.BIN/
 obj/
 bin/
 App.config
+.vs
