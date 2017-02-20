@@ -56,5 +56,16 @@ namespace Oodso.Common.Api
         [XmlElement("siteid")]
         public int Siteid { get; set; }
 
+        /// <summary>
+        /// 公司ID
+        /// </summary>
+        [XmlElement("companyid")]
+        public int Companyid { get; set; }
+
+        /// <summary>
+        /// 店铺id
+        /// </summary>
+        [XmlElement("shopid")]
+        public int Shopid { get; set; }
     }
 }

@@ -65,6 +65,10 @@ namespace Oodso.Common.Api.Request
 
         public int Siteid { get; set; }
 
+        public int Companyid { get; set; }
+
+        public int Shopid { get; set; }
+
         public IDictionary<string, string> GetParameters()
         {
             var parameters = new YunDictionary
@@ -76,7 +80,9 @@ namespace Oodso.Common.Api.Request
                 {"contacts", Contacts},
                 {"qq", QQ},
                 {"status", Status},
-                {"siteid", Siteid}
+                {"siteid", Siteid},
+                {"companyid", Companyid},
+                {"shopid", Shopid}
 
             };
 
