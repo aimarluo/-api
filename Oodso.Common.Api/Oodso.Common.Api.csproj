@@ -42,14 +42,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LinksDetail.cs" />
+    <Compile Include="ManageSitesModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Request\AddLinksRequest.cs" />
     <Compile Include="Request\DeleteLinksRequest.cs" />
     <Compile Include="Request\GetLinksModelRequest.cs" />
     <Compile Include="Request\GetLinksRequest.cs" />
+    <Compile Include="Request\GetManagesitesListRequest.cs" />
+    <Compile Include="Request\GetManagesitesRequest.cs" />
+    <Compile Include="Request\GetSitesTokenListRequest.cs" />
+    <Compile Include="Request\GetSitesTokenRequest.cs" />
     <Compile Include="Request\UpdateLinksRequest.cs" />
+    <Compile Include="Request\UpdateManagesitesRequest.cs" />
+    <Compile Include="Request\UpdateSitesTokenRequest.cs" />
     <Compile Include="Response\LinksModelResponse.cs" />
     <Compile Include="Response\LinksResponse.cs" />
+    <Compile Include="Response\ManagesitesListResponse.cs" />
+    <Compile Include="Response\ManagesitesResponse.cs" />
+    <Compile Include="Response\SitestokenListResponse.cs" />
+    <Compile Include="Response\SitestokenResponse.cs" />
+    <Compile Include="SitesTokenModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

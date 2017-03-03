@@ -93,10 +93,20 @@ namespace Oodso.Common.Api.Request
         /// 状态 0-正常，1-锁定
         /// </summary>
 
-        public int? Status { get; set; }
+        public int? Status { get; set; } 
 
-
+        /// <summary>
+        /// 站点标识
+        /// </summary>
         public int? Siteid { get; set; }
+        /// <summary>
+        /// 公司ID
+        /// </summary>
+        public int? Companyid { get; set; }
+        /// <summary>
+        /// 店铺ID
+        /// </summary>
+        public int? Shopid { get; set; }
 
         public IDictionary<string, string> GetParameters()
         {
@@ -110,7 +120,9 @@ namespace Oodso.Common.Api.Request
                  {"contacts", Contacts },
                  {"status", Status },
                  {"qq", QQ },
-                 {"Siteid", Siteid}
+                 {"siteid", Siteid},
+                 {"companyid", Companyid},
+                 {"shopid", Shopid}
              };
             return parameters;
         }
